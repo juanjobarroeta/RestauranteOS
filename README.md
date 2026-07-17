@@ -48,8 +48,16 @@ Requisitos en el hub (una vez, ver `docs/RESTAURANTE.md` en contabilidad-os):
 
 Inicia sesión con tu usuario de contabilidad-os — no hay registro aquí.
 
-## Deploy (Vercel)
+## Deploy (Railway)
 
-- `VITE_API_URL=https://<hub>.up.railway.app` (env de build — redeploy con
-  cache limpio al cambiarla).
-- Agrega el dominio de Vercel a `API_ALLOWED_ORIGINS` en Railway.
+El repo trae `railway.json`: Nixpacks corre `npm ci && npm run build` y el
+start sirve `dist/` con fallback SPA (`serve -s`).
+
+1. Nuevo servicio en Railway apuntando a este repo.
+2. Variable `VITE_API_URL=https://<hub>.up.railway.app` — es env de **build**:
+   cualquier cambio requiere redeploy.
+3. Genera el dominio público del servicio y agrégalo a `API_ALLOWED_ORIGINS`
+   del hub (exacto: `https://<satelite>.up.railway.app`, sin slash final).
+
+(También funciona en Vercel/Netlify como estático: build `npm run build`,
+output `dist/`, rewrite de todas las rutas a `/index.html`.)
