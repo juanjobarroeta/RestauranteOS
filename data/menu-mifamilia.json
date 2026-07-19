@@ -1,0 +1,187 @@
+{
+  "restaurante": "Mi Familia — cocina con amor",
+  "fuente": "MIFAMMENU_2026.pdf",
+  "notas": "Precios IVA incluido. Los platillos homónimos entre categorías se prefijan (Pizza/Pasta/Ensalada/Omelette) porque el nombre es único por empresa en el hub.",
+  "categorias": [
+    {
+      "nombre": "Desayunos",
+      "orden": 1,
+      "items": [
+        { "nombre": "Hot Cakes Clásicos (2 pzas)", "precio": 95, "descripcion": "Con fruta de temporada (fresa, durazno, kiwi, zarzamora); miel natural o maple. +$10 con tocineta y jamón" },
+        { "nombre": "Pan Francés (2 pzas)", "precio": 95, "descripcion": "Con miel y frutos del bosque" },
+        { "nombre": "Plato de Fruta", "precio": 95, "descripcion": "150 g de fruta de temporada con yogurt y granola" },
+        { "nombre": "Bowl Frutastiko", "precio": 95, "descripcion": "Avena y chía con leche de almendras y fruta de temporada" },
+        { "nombre": "Chilaquiles", "precio": 120, "descripcion": "Totopos crujientes en tu salsa favorita (chipotle-clavo-canela, verde clásica o cremosa de habanero) con huevo o pollo; crema, queso fresco, cebolla morada y cilantro" },
+        { "nombre": "Birria (desayuno)", "precio": 115, "descripcion": "Espagueti en birria de res caldosa con cebolla y cilantro, acompañada de tortillas de maíz" },
+        { "nombre": "De la Mamasa", "precio": 120, "descripcion": "Cuatro tortillas rellenas de pechuga de pollo, bañadas en salsa de chipotle, clavo y canela; crema, queso y cebolla morada" },
+        { "nombre": "Enfrijoladas", "precio": 110, "descripcion": "Cuatro tortillas rellenas de huevo revuelto, bañadas en salsa de frijol, con crema, queso fresco, chorizo y jalapeño" },
+        { "nombre": "Enchiladas Suizas", "precio": 140, "descripcion": "Cuatro tortillas rellenas de pechuga de pollo, bañadas en salsa verde, gratinadas con queso mozzarella y cebolla morada" },
+        { "nombre": "Enmoladas", "precio": 150, "descripcion": "Cuatro tortillas rellenas de pollo, bañadas en mole poblano, con crema, queso fresco y cebolla" },
+        { "nombre": "Habaneras", "precio": 120, "descripcion": "Cuatro tortillas rellenas de pechuga deshebrada, bañadas en salsa de habanero cremosa; crema, queso fresco y cebolla morada" },
+        { "nombre": "Encacahuatadas", "precio": 150, "descripcion": "Cuatro tortillas rellenas de pollo, bañadas en salsa de cacahuate; crema, queso fresco y cebolla" },
+        { "nombre": "Paquete Desayuno", "precio": 60, "descripcion": "Jugo, café americano refill y pan dulce (se agrega a tu platillo)", "estacion": "BARRA" }
+      ]
+    },
+    {
+      "nombre": "Tostas y Focaccias",
+      "orden": 2,
+      "items": [
+        { "nombre": "Tosta Campestre", "precio": 105, "descripcion": "Pan de masa madre con base de queso de cabra con arándanos, huevo duro y champiñones al ajillo" },
+        { "nombre": "Avo Toast", "precio": 105, "descripcion": "Masa madre con aguacate, aceite de oliva extra virgen, huevo poché y hojuelas de chile morrón" },
+        { "nombre": "Molletes", "precio": 105, "descripcion": "Masa madre con frijoles refritos y queso Monterrey (jamón, chorizo, rajas poblanas o naturales) con pico de gallo" },
+        { "nombre": "Hogaza Jamón y Queso", "precio": 95, "descripcion": "Sandwich de masa madre con jamón York y mozzarella, lechuga y jitomate; papas a la francesa o ensalada" },
+        { "nombre": "Hogaza Cheesetorra", "precio": 95, "descripcion": "Masa madre con queso Monterrey Jack, chistorra y chimichurri; papas a la francesa o ensalada" },
+        { "nombre": "Hogaza Animalin", "precio": 95, "descripcion": "Masa madre con mantequilla, mozzarella, Monterrey Jack, queso crema y parmesano" }
+      ]
+    },
+    {
+      "nombre": "Huevos y Omelettes",
+      "orden": 3,
+      "items": [
+        { "nombre": "Omelette Poblano", "precio": 110, "descripcion": "Tres huevos rellenos de rajas poblanas con elote, queso panela y champiñones; frijoles bayos refritos" },
+        { "nombre": "Omelette Español", "precio": 120, "descripcion": "Tres huevos rellenos de jamón serrano y queso azul; jitomatitos rostizados y papas criollas en salsa de pimiento morrón" },
+        { "nombre": "Omelette Mi Familia", "precio": 120, "descripcion": "Tres huevos rellenos de espinaca a la crema y salami, bañados en salsa de queso; papa hash brown" },
+        { "nombre": "Huevos al Sartén", "precio": 110, "descripcion": "Dos piezas estrellados o revueltos sobre pan artesanal, bañados en salsa pomodoro y gratinados con mozzarella" },
+        { "nombre": "Huevos al Gusto", "precio": 110, "descripcion": "Tres piezas estrellados o revueltos (jamón York, a la mexicana, salsa roja o verde, chorizo español); frijoles refritos" }
+      ]
+    },
+    {
+      "nombre": "Entradas",
+      "orden": 4,
+      "items": [
+        { "nombre": "Brusquetas (4 pzas)", "precio": 110, "descripcion": "Focaccia: pesto e higo; cabra con arándanos y arúgula; tomate y jamón serrano; crema de alcachofas y mozzarella" },
+        { "nombre": "Papas Poutine", "precio": 95, "descripcion": "Papas a la francesa gratinadas con salsa gravy" },
+        { "nombre": "Orden de Papas a la Francesa", "precio": 75 },
+        { "nombre": "Dip de Quesos", "precio": 105, "descripcion": "Mezcla de quesos y alcachofa, acompañada de focaccia" }
+      ]
+    },
+    {
+      "nombre": "Pastas",
+      "orden": 5,
+      "items": [
+        { "nombre": "Pasta Al Pesto", "precio": 170, "descripcion": "Espagueti al pesto con piñones y almendras (vegana)" },
+        { "nombre": "Pasta Quechipotle", "precio": 150, "descripcion": "Codito con salsa de queso cheddar, chipotle y tocineta" },
+        { "nombre": "Pasta Mi Familia", "precio": 170, "descripcion": "Codito en salsa de pimiento morrón y queso crema, con champiñones y cubitos de pollo" },
+        { "nombre": "Pasta Poblana", "precio": 150, "descripcion": "Tornillos en salsa de chile poblano con elote, champiñones, cebolla, pollo asado y queso panela" },
+        { "nombre": "Pasta Alfredo", "precio": 180, "descripcion": "Tallarines en salsa blanca con camarones al ajillo y perejil" },
+        { "nombre": "Pasta Pomodoro", "precio": 160, "descripcion": "Espagueti en salsa clásica de tomate con bolitas de carne y mozzarella al horno" },
+        { "nombre": "Pasta 4 Quesos", "precio": 160, "descripcion": "Tallarines con queso crema, azul, parmesano, mozzarella y un toque de vino blanco (vegetariana)" },
+        { "nombre": "Pasta Birria", "precio": 160, "descripcion": "Espagueti en birria de res caldosa con cebolla y cilantro" }
+      ]
+    },
+    {
+      "nombre": "Ensaladas",
+      "orden": 6,
+      "items": [
+        { "nombre": "Ensalada Mi Familia", "precio": 130, "descripcion": "Mezcla de lechugas, pera, prosciutto, queso de cabra con arándanos, nuez caramelizada y vinagreta de vino tinto con balsámico" },
+        { "nombre": "Ensalada Caprese", "precio": 130, "descripcion": "Mozzarella fresco, tomate, albahaca, emulsión de aceite de oliva y balsámico (vegetariana)" },
+        { "nombre": "Ensalada Frutastika", "precio": 115, "descripcion": "Mezcla de lechugas, manzana, durazno, fresa, queso crema, almendra tostada con aderezo de miel y mostaza (vegetariana)" },
+        { "nombre": "Ensalada La Freski", "precio": 115, "descripcion": "Calabacita verde asada, ejote, pimiento morrón, espinaca, aderezo césar y cubos de pollo asado" },
+        { "nombre": "Poke Bowl", "precio": 110, "descripcion": "Quinoa, queso panela, jitomate, cebolla morada, elote, espinaca, pepino, champiñones y vinagre de arroz con miel de agave (vegana)" },
+        { "nombre": "Ensalada PlayaCar", "precio": 130, "descripcion": "Mezcla de lechugas, camarones, mango, aguacate, cebolla y cacahuates bañados en jugo de chirimico" },
+        { "nombre": "Ensalada De Fede", "precio": 110, "descripcion": "Lechuga italiana, espinaca, champiñones, jitomatito uva, tocineta, queso crema con aderezo blue cheese" }
+      ]
+    },
+    {
+      "nombre": "Pizzas",
+      "orden": 7,
+      "items": [
+        { "nombre": "Pizza Hawaiana", "precio": 230, "descripcion": "Mozzarella, piña natural asada y jamón" },
+        { "nombre": "Pizza Margarita", "precio": 240, "descripcion": "Mozzarella, jitomate, albahaca y mozzarella fresco (vegetariana)" },
+        { "nombre": "Pizza Animalin", "precio": 240, "descripcion": "Mozzarella, queso de cabra con arándanos, queso azul y parmesano (vegetariana)" },
+        { "nombre": "Pizza Cos", "precio": 260, "descripcion": "Mozzarella, chistorra, papas a la francesa, queso azul y pimiento" },
+        { "nombre": "Pizza Poblana", "precio": 230, "descripcion": "Mozzarella, rajas poblanas, elote, champiñones y queso panela" },
+        { "nombre": "Pizza Camaronsini", "precio": 275, "descripcion": "Mozzarella, camarones al ajillo, perejil y queso crema" },
+        { "nombre": "Pizza Carnívora", "precio": 260, "descripcion": "Mozzarella, panceta, jamón serrano, salami y jamón cocido" },
+        { "nombre": "Pizza Del Cerro", "precio": 250, "descripcion": "Mozzarella, jamón asado, pera, arúgula y queso crema" },
+        { "nombre": "Pizza Piensa en Verde", "precio": 250, "descripcion": "Mozzarella, pesto, almendras, piñones y jitomatitos (vegetariana)" },
+        { "nombre": "Pizza Lobuki", "precio": 240, "descripcion": "Mozzarella, higo, albahaca, parmesano, almendra y panceta" },
+        { "nombre": "Pizza Palermo", "precio": 250, "descripcion": "Mozzarella, chorizo argentino, chimichurri y pimiento" },
+        { "nombre": "Pizza Mi Familia", "precio": 250, "descripcion": "Mozzarella, salami, espinacas a la crema y queso de cabra con arándanos" }
+      ]
+    },
+    {
+      "nombre": "Platos Fuertes",
+      "orden": 8,
+      "items": [
+        { "nombre": "Lasaña Boloñesa", "precio": 110, "descripcion": "Clásica salsa de tomate y carne, con verduras" },
+        { "nombre": "Ravioles de Queso", "precio": 110, "descripcion": "Rellenos de espinacas a la crema y queso Monterrey Jack, bañados en salsa estilo Verónica" },
+        { "nombre": "Milanesa Parmesana", "precio": 160, "descripcion": "Milanesa de pollo empanizada con salsa pomodoro, gratinada con mozzarella y parmesano; papas a la francesa o ensalada" },
+        { "nombre": "Cordon Blue", "precio": 160, "descripcion": "Pechuga empanizada rellena de jamón York y mozzarella, bañada en salsa demiglace; papas a la francesa o ensalada" }
+      ]
+    },
+    {
+      "nombre": "Sandwiches Focaccia",
+      "orden": 9,
+      "items": [
+        { "nombre": "Focaccia Carnes Frías", "precio": 150, "descripcion": "Pesto, jamón serrano, salami, queso crema y arúgula; papas a la francesa o ensalada" },
+        { "nombre": "Choripán", "precio": 150, "descripcion": "Alioli, chorizo argentino, mozzarella y chimichurri; papas a la francesa o ensalada" }
+      ]
+    },
+    {
+      "nombre": "Menú Infantil",
+      "orden": 10,
+      "items": [
+        { "nombre": "Palomitas de Pollo y Papas", "precio": 95, "descripcion": "14 piezas de palomitas de pollo y 100 g de papas a la francesa" }
+      ]
+    },
+    {
+      "nombre": "Bebidas",
+      "orden": 11,
+      "estacion": "BARRA",
+      "items": [
+        { "nombre": "Jugo de Naranja", "precio": 40 },
+        { "nombre": "Jugo Verde", "precio": 40 },
+        { "nombre": "Licuado de Chocolate", "precio": 40 },
+        { "nombre": "Agua del Día (refill)", "precio": 55 },
+        { "nombre": "Refresco", "precio": 45, "descripcion": "Familia Coca-Cola" },
+        { "nombre": "Limonada / Naranjada", "precio": 50 },
+        { "nombre": "Mimosa", "precio": 90 },
+        { "nombre": "Cerveza Clara", "precio": 45, "descripcion": "Superior, XX Lager/Ámbar, Corona, Victoria, Pacífico" },
+        { "nombre": "Cerveza Especial", "precio": 50, "descripcion": "Bohemia, Modelo, Amstel, Stella, Corona/Heineken 0.0" },
+        { "nombre": "Strongbow", "precio": 50 },
+        { "nombre": "Copa de Vino", "precio": 65 },
+        { "nombre": "Vaso con Clamato", "precio": 30 },
+        { "nombre": "Vaso Michelado o Chelado", "precio": 20 }
+      ]
+    },
+    {
+      "nombre": "Café y Té",
+      "orden": 12,
+      "estacion": "BARRA",
+      "items": [
+        { "nombre": "Café Americano (refill)", "precio": 40 },
+        { "nombre": "Espresso", "precio": 35 },
+        { "nombre": "Té", "precio": 35 },
+        { "nombre": "Tisana", "precio": 45 },
+        { "nombre": "Capuchino / Moka", "precio": 50, "descripcion": "Leche entera o deslactosada; +$5 leche de almendra" },
+        { "nombre": "Chocolate / Cacao Lavanda", "precio": 50, "descripcion": "Leche entera o deslactosada; +$5 leche de almendra" },
+        { "nombre": "Matcha / Chai / Golden Milk", "precio": 60, "descripcion": "Leche entera o deslactosada; +$5 leche de almendra" }
+      ]
+    },
+    {
+      "nombre": "Pan Dulce",
+      "orden": 13,
+      "estacion": "POSTRES",
+      "items": [
+        { "nombre": "Chocolatín", "precio": 30 },
+        { "nombre": "Rol de Canela", "precio": 30 },
+        { "nombre": "Concha", "precio": 25 },
+        { "nombre": "Cuernito", "precio": 25 }
+      ]
+    },
+    {
+      "nombre": "Postres",
+      "orden": 14,
+      "estacion": "POSTRES",
+      "items": [
+        { "nombre": "Brownie de Chocolate", "precio": 70 },
+        { "nombre": "Strudel de Manzana", "precio": 95 },
+        { "nombre": "Crepas de Nutella con Fresa", "precio": 75, "descripcion": "Con queso crema" },
+        { "nombre": "Crepas de Cajeta con Nuez", "precio": 75, "descripcion": "Con queso crema" },
+        { "nombre": "Cheesecake de Oreo", "precio": 70, "descripcion": "Base de Oreo, cajeta y nuez" },
+        { "nombre": "Cono de Helado", "precio": 55, "descripcion": "Variedad de sabores" }
+      ]
+    }
+  ]
+}

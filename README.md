@@ -48,6 +48,28 @@ Requisitos en el hub (una vez, ver `docs/RESTAURANTE.md` en contabilidad-os):
 
 Inicia sesión con tu usuario de contabilidad-os — no hay registro aquí.
 
+## Importar un menú (onboarding de un restaurante nuevo)
+
+El menú completo de un restaurante se carga en un comando. Playbook:
+
+1. Crear la Company en contabilidad-os (RFC, razón social, régimen, CP).
+2. Habilitar el módulo: `node scripts/enable-restaurante-module.mjs <RFC>`
+   (repo del hub).
+3. Extraer su carta a un JSON con la forma de `data/menu-mifamilia.json`
+   (categorías → items con nombre, precio IVA-incluido, descripción y
+   estación COCINA/BARRA/POSTRES).
+4. Cargar:
+
+```bash
+API_URL=https://<hub>.up.railway.app \
+EMAIL=tu@correo.com PASSWORD=... \
+node scripts/import-menu.mjs data/menu-mifamilia.json --rfc <RFC> [--dry-run]
+```
+
+Idempotente (lo existente se salta por nombre); `--update-prices` sincroniza
+cambios de precio en re-corridas. Las recetas se capturan después en Menú →
+Editar, cuando el restaurante quiera costeo por platillo.
+
 ## Deploy (Railway)
 
 El repo trae `railway.json`: Nixpacks corre `npm ci && npm run build` y el
