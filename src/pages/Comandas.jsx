@@ -188,14 +188,30 @@ function NuevaOrdenModal({ companyId, menu, orden, onClose, onDone }) {
 
   const add = (m) => {
     setTicket((t) => {
-      const idx = t.findIndex((x) => x.menuItemId === m.id && !x.notas)
+      const idx = t.findIndex((x) => x.menuItemId === m.id && !x.notas && x.sin.length === 0)
       if (idx >= 0) {
         const copy = [...t]
         copy[idx] = { ...copy[idx], cantidad: copy[idx].cantidad + 1 }
         return copy
       }
-      return [...t, { menuItemId: m.id, nombre: m.nombre, precio: m.precio, cantidad: 1, notas: '' }]
+      return [...t, {
+        menuItemId: m.id,
+        nombre: m.nombre,
+        precio: m.precio,
+        cantidad: 1,
+        notas: '',
+        // Ingredientes de la receta → chips "sin X" para personalizar
+        ingredientes: (m.receta ?? []).map((r) => r.insumo.nombre),
+        sin: [],
+      }]
     })
+  }
+  const toggleSin = (idx, ing) => {
+    setTicket((t) => t.map((x, i) => {
+      if (i !== idx) return x
+      const sin = x.sin.includes(ing) ? x.sin.filter((s) => s !== ing) : [...x.sin, ing]
+      return { ...x, sin }
+    }))
   }
   const setQty = (idx, delta) => {
     setTicket((t) => {
@@ -216,11 +232,15 @@ function NuevaOrdenModal({ companyId, menu, orden, onClose, onDone }) {
     if (ticket.length === 0) { setError('Agrega al menos un platillo'); return }
     setSaving(true)
     setError(null)
-    const items = ticket.map((i) => ({
-      menuItemId: i.menuItemId,
-      cantidad: i.cantidad,
-      notas: i.notas || null,
-    }))
+    const items = ticket.map((i) => {
+      const sinNotas = i.sin.map((s) => `Sin ${s.toLowerCase()}`).join(', ')
+      const notas = [sinNotas, i.notas].filter(Boolean).join(' · ')
+      return {
+        menuItemId: i.menuItemId,
+        cantidad: i.cantidad,
+        notas: notas || null,
+      }
+    })
     try {
       if (orden) {
         await apiFetch(`/api/restaurante/ordenes/${orden.id}`, {
@@ -295,18 +315,35 @@ function NuevaOrdenModal({ companyId, menu, orden, onClose, onDone }) {
       {ticket.length > 0 && (
         <div className="ticket">
           {ticket.map((i, idx) => (
-            <div key={idx} className="ticket-line">
-              <button className="qty-btn" onClick={() => setQty(idx, -1)}>−</button>
-              <span>{i.cantidad}</span>
-              <button className="qty-btn" onClick={() => setQty(idx, +1)}>+</button>
-              <span className="grow">{i.nombre}</span>
-              <input
-                style={{ width: 140 }}
-                placeholder="nota (sin cebolla…)"
-                value={i.notas}
-                onChange={(e) => setNota(idx, e.target.value)}
-              />
-              <span className="money">{mxn(i.cantidad * i.precio)}</span>
+            <div key={idx}>
+              <div className="ticket-line">
+                <button className="qty-btn" onClick={() => setQty(idx, -1)}>−</button>
+                <span>{i.cantidad}</span>
+                <button className="qty-btn" onClick={() => setQty(idx, +1)}>+</button>
+                <span className="grow">{i.nombre}</span>
+                <input
+                  style={{ width: 140 }}
+                  placeholder="nota libre…"
+                  value={i.notas}
+                  onChange={(e) => setNota(idx, e.target.value)}
+                />
+                <span className="money">{mxn(i.cantidad * i.precio)}</span>
+              </div>
+              {i.ingredientes.length > 0 && (
+                <div className="sin-chips">
+                  {i.ingredientes.map((ing) => (
+                    <button
+                      key={ing}
+                      type="button"
+                      className={`sin-chip${i.sin.includes(ing) ? ' off' : ''}`}
+                      title={i.sin.includes(ing) ? `Volver a incluir ${ing}` : `Quitar ${ing}`}
+                      onClick={() => toggleSin(idx, ing)}
+                    >
+                      {i.sin.includes(ing) ? `sin ${ing}` : ing}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
           <div className="orden-total"><span>Total</span><span className="money">{mxn(total)}</span></div>

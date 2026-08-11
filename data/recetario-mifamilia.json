@@ -1,0 +1,1495 @@
+{
+  "fuente": "520a5018-Recetario_Mi_FAMilia_Formato_Comandas.xlsx",
+  "insumos": [
+    {
+      "nombre": "Aceite de ajo",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Aceite de oliva",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Aceituna",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Aderezo blue cheese",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Aderezo cesar",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Aderezo de miel y mostaza",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Agua",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Agua de garrafón",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Aguacate",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Ajo",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Albahaca",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Almendra",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Almendra rebanada",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Arúgula",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Azúcar",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Bolitas de carne",
+      "unidad": "G",
+      "produccionInterna": true
+    },
+    {
+      "nombre": "Cacahuate",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Calabacita italiana",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Caldo",
+      "unidad": "ML",
+      "produccionInterna": true
+    },
+    {
+      "nombre": "Camarón",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Carne",
+      "unidad": "G",
+      "produccionInterna": true
+    },
+    {
+      "nombre": "Cebolla",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Cebolla blanca",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Cebolla morada",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Chambarete",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Champiñón",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Chile ancho",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Chile poblano",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Chile poblano asado",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Chile pulla",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Chimichurri",
+      "unidad": "ML",
+      "produccionInterna": true
+    },
+    {
+      "nombre": "Chipotle",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Chistorra",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Chorizo argentino",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Cilantro",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Clavo de olor",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Codito",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Condimento italiano",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Crema",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Durazno en almíbar",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Ejote",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Elote en grano",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Espagueti",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Espinaca",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Espinacas a la crema",
+      "unidad": "ML",
+      "produccionInterna": true
+    },
+    {
+      "nombre": "Focaccia",
+      "unidad": "PZA",
+      "produccionInterna": true
+    },
+    {
+      "nombre": "Fresa",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Harina fuerte",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Hierbas italianas",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Higo",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Jamón",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Jamón serrano",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Jamón york",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Jitomate",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Jitomatito uva",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Jugo de chirimico o clamato preparado",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Knorr",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Lechuga italiana",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Levadura",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Limón",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Mango",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Mantequilla",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Manzana roja",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Masa de pizza (bola)",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Mayonesa con ajo",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Mezcla de lechugas",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Miel de agave",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Nuez caramelizada",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Papas a la francesa",
+      "unidad": "G",
+      "produccionInterna": true
+    },
+    {
+      "nombre": "Pechuga de pollo",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Pepino",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Pera",
+      "unidad": "PZA"
+    },
+    {
+      "nombre": "Perejil",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Pesto",
+      "unidad": "ML",
+      "produccionInterna": true
+    },
+    {
+      "nombre": "Pimiento morrón",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Piña",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Piñón",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Queso azul",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Queso cheddar",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Queso crema",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Queso de cabra con arándano",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Queso de cabra con arándanos",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Queso mozzarella",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Queso mozzarella fresco",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Queso panela",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Queso parmesano",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Quinoa",
+      "unidad": "PZA",
+      "produccionInterna": true
+    },
+    {
+      "nombre": "Radicchio",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Sal",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Sal ahumada",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Salami",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Salsa bechamel",
+      "unidad": "ML",
+      "produccionInterna": true
+    },
+    {
+      "nombre": "Salsa de tomate",
+      "unidad": "G",
+      "produccionInterna": true
+    },
+    {
+      "nombre": "Tallarines",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Tocineta",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Tornillo",
+      "unidad": "G"
+    },
+    {
+      "nombre": "Vinagre blanco",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Vinagre de arroz",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Vinagreta de oliva y balsámico",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Vinagreta de tinto con balsámico",
+      "unidad": "ML"
+    },
+    {
+      "nombre": "Vino blanco",
+      "unidad": "ML"
+    }
+  ],
+  "recetas": [
+    {
+      "menuItem": "Choripán",
+      "lineas": [
+        {
+          "insumo": "Chimichurri",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Chorizo argentino",
+          "cantidad": 150.0
+        },
+        {
+          "insumo": "Focaccia",
+          "cantidad": 0.125
+        },
+        {
+          "insumo": "Mayonesa con ajo",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Papas a la francesa",
+          "cantidad": 5.0
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 100.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Ensalada Caprese",
+      "lineas": [
+        {
+          "insumo": "Albahaca",
+          "cantidad": 15.0
+        },
+        {
+          "insumo": "Jitomate",
+          "cantidad": 250.0
+        },
+        {
+          "insumo": "Queso mozzarella fresco",
+          "cantidad": 200.0
+        },
+        {
+          "insumo": "Sal ahumada",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Vinagreta de oliva y balsámico",
+          "cantidad": 40.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Ensalada De Fede",
+      "lineas": [
+        {
+          "insumo": "Aderezo blue cheese",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Champiñón",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Espinaca",
+          "cantidad": 55.0
+        },
+        {
+          "insumo": "Jitomatito uva",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Lechuga italiana",
+          "cantidad": 55.0
+        },
+        {
+          "insumo": "Queso crema",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Tocineta",
+          "cantidad": 30.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Ensalada Frutastika",
+      "lineas": [
+        {
+          "insumo": "Aderezo de miel y mostaza",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Almendra rebanada",
+          "cantidad": 20.0
+        },
+        {
+          "insumo": "Durazno en almíbar",
+          "cantidad": 0.25
+        },
+        {
+          "insumo": "Fresa",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Manzana roja",
+          "cantidad": 0.25
+        },
+        {
+          "insumo": "Mezcla de lechugas",
+          "cantidad": 110.0
+        },
+        {
+          "insumo": "Queso crema",
+          "cantidad": 30.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Ensalada La Freski",
+      "lineas": [
+        {
+          "insumo": "Aderezo cesar",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Calabacita italiana",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Ejote",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Espinaca",
+          "cantidad": 70.0
+        },
+        {
+          "insumo": "Lechuga italiana",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Pechuga de pollo",
+          "cantidad": 120.0
+        },
+        {
+          "insumo": "Pimiento morrón",
+          "cantidad": 30.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Ensalada Mi Familia",
+      "lineas": [
+        {
+          "insumo": "Jamón serrano",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Lechuga italiana",
+          "cantidad": 110.0
+        },
+        {
+          "insumo": "Nuez caramelizada",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Pera",
+          "cantidad": 0.25
+        },
+        {
+          "insumo": "Queso de cabra con arándano",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Vinagreta de tinto con balsámico",
+          "cantidad": 50.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Ensalada PlayaCar",
+      "lineas": [
+        {
+          "insumo": "Aguacate",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Cacahuate",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Camarón",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Cebolla morada",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Jugo de chirimico o clamato preparado",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Lechuga italiana",
+          "cantidad": 80.0
+        },
+        {
+          "insumo": "Mango",
+          "cantidad": 70.0
+        },
+        {
+          "insumo": "Radicchio",
+          "cantidad": 40.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Focaccia Carnes Frías",
+      "lineas": [
+        {
+          "insumo": "Arúgula",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Focaccia",
+          "cantidad": 0.125
+        },
+        {
+          "insumo": "Jamón serrano",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Papas a la francesa",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Pesto",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Queso crema",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Salami",
+          "cantidad": 50.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pasta 4 Quesos",
+      "lineas": [
+        {
+          "insumo": "Crema",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Queso azul",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Queso parmesano",
+          "cantidad": 60.0
+        },
+        {
+          "insumo": "Salsa bechamel",
+          "cantidad": 120.0
+        },
+        {
+          "insumo": "Tallarines",
+          "cantidad": 150.0
+        },
+        {
+          "insumo": "Vino blanco",
+          "cantidad": 30.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pasta Al Pesto",
+      "lineas": [
+        {
+          "insumo": "Almendra",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Espagueti",
+          "cantidad": 150.0
+        },
+        {
+          "insumo": "Pesto",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Piñón",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Queso parmesano",
+          "cantidad": 30.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pasta Alfredo",
+      "lineas": [
+        {
+          "insumo": "Aceite de ajo",
+          "cantidad": 15.0
+        },
+        {
+          "insumo": "Camarón",
+          "cantidad": 150.0
+        },
+        {
+          "insumo": "Crema",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Perejil",
+          "cantidad": 5.0
+        },
+        {
+          "insumo": "Queso parmesano",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Salsa bechamel",
+          "cantidad": 120.0
+        },
+        {
+          "insumo": "Tallarines",
+          "cantidad": 125.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pasta Birria",
+      "lineas": [
+        {
+          "insumo": "Caldo",
+          "cantidad": 250.0
+        },
+        {
+          "insumo": "Carne",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Cebolla",
+          "cantidad": 20.0
+        },
+        {
+          "insumo": "Cilantro",
+          "cantidad": 3.0
+        },
+        {
+          "insumo": "Espagueti",
+          "cantidad": 125.0
+        },
+        {
+          "insumo": "Limón",
+          "cantidad": 1.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pasta Mi Familia",
+      "lineas": [
+        {
+          "insumo": "Cebolla",
+          "cantidad": 20.0
+        },
+        {
+          "insumo": "Champiñón",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Codito",
+          "cantidad": 125.0
+        },
+        {
+          "insumo": "Crema",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Knorr",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Pechuga de pollo",
+          "cantidad": 120.0
+        },
+        {
+          "insumo": "Pimiento morrón",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Queso crema",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Queso parmesano",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Salsa bechamel",
+          "cantidad": 120.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pasta Poblana",
+      "lineas": [
+        {
+          "insumo": "Cebolla blanca",
+          "cantidad": 20.0
+        },
+        {
+          "insumo": "Champiñón",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Chile poblano",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Elote en grano",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Knorr",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Pechuga de pollo",
+          "cantidad": 120.0
+        },
+        {
+          "insumo": "Queso panela",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Salsa bechamel",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Tornillo",
+          "cantidad": 125.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pasta Pomodoro",
+      "lineas": [
+        {
+          "insumo": "Bolitas de carne",
+          "cantidad": 120.0
+        },
+        {
+          "insumo": "Condimento italiano",
+          "cantidad": 1.0
+        },
+        {
+          "insumo": "Espagueti",
+          "cantidad": 125.0
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Queso parmesano",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Salsa de tomate",
+          "cantidad": 50.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pasta Quechipotle",
+      "lineas": [
+        {
+          "insumo": "Chipotle",
+          "cantidad": 5.0
+        },
+        {
+          "insumo": "Codito",
+          "cantidad": 125.0
+        },
+        {
+          "insumo": "Crema",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Queso cheddar",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Queso parmesano",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Salsa bechamel",
+          "cantidad": 120.0
+        },
+        {
+          "insumo": "Tocineta",
+          "cantidad": 50.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pizza Animalin",
+      "lineas": [
+        {
+          "insumo": "Masa de pizza (bola)",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Queso azul",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Queso crema",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Queso de cabra con arándanos",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 180.0
+        },
+        {
+          "insumo": "Salsa de tomate",
+          "cantidad": 120.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pizza Camaronsini",
+      "lineas": [
+        {
+          "insumo": "Aceite de ajo",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Camarón",
+          "cantidad": 200.0
+        },
+        {
+          "insumo": "Masa de pizza (bola)",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Perejil",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Queso crema",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 150.0
+        },
+        {
+          "insumo": "Salsa de tomate",
+          "cantidad": 120.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pizza Carnívora",
+      "lineas": [
+        {
+          "insumo": "Jamón serrano",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Jamón york",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Masa de pizza (bola)",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 150.0
+        },
+        {
+          "insumo": "Salami",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Salsa de tomate",
+          "cantidad": 120.0
+        },
+        {
+          "insumo": "Tocineta",
+          "cantidad": 30.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pizza Cos",
+      "lineas": [
+        {
+          "insumo": "Chistorra",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Masa de pizza (bola)",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Papas a la francesa",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Pimiento morrón",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Queso azul",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 150.0
+        },
+        {
+          "insumo": "Salsa de tomate",
+          "cantidad": 120.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pizza Del Cerro",
+      "lineas": [
+        {
+          "insumo": "Arúgula",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Jamón york",
+          "cantidad": 150.0
+        },
+        {
+          "insumo": "Masa de pizza (bola)",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Pera",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Queso crema",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 150.0
+        },
+        {
+          "insumo": "Salsa de tomate",
+          "cantidad": 120.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pizza Hawaiana",
+      "lineas": [
+        {
+          "insumo": "Jamón",
+          "cantidad": 200.0
+        },
+        {
+          "insumo": "Masa de pizza (bola)",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Piña",
+          "cantidad": 160.0
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 180.0
+        },
+        {
+          "insumo": "Salsa de tomate",
+          "cantidad": 120.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pizza Lobuki",
+      "lineas": [
+        {
+          "insumo": "Albahaca",
+          "cantidad": 20.0
+        },
+        {
+          "insumo": "Almendra rebanada",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Higo",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Masa de pizza (bola)",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 180.0
+        },
+        {
+          "insumo": "Queso parmesano",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Salsa de tomate",
+          "cantidad": 120.0
+        },
+        {
+          "insumo": "Tocineta",
+          "cantidad": 30.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pizza Mi Familia",
+      "lineas": [
+        {
+          "insumo": "Espinacas a la crema",
+          "cantidad": 45.0
+        },
+        {
+          "insumo": "Masa de pizza (bola)",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Queso de cabra con arándanos",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 180.0
+        },
+        {
+          "insumo": "Salami",
+          "cantidad": 8.0
+        },
+        {
+          "insumo": "Salsa de tomate",
+          "cantidad": 120.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pizza Palermo",
+      "lineas": [
+        {
+          "insumo": "Chimichurri",
+          "cantidad": 45.0
+        },
+        {
+          "insumo": "Chorizo argentino",
+          "cantidad": 3.0
+        },
+        {
+          "insumo": "Masa de pizza (bola)",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Pimiento morrón",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 150.0
+        },
+        {
+          "insumo": "Salsa de tomate",
+          "cantidad": 120.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pizza Piensa en Verde",
+      "lineas": [
+        {
+          "insumo": "Almendra rebanada",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Jitomatito uva",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Masa de pizza (bola)",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Pesto",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Piñón",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 180.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Pizza Poblana",
+      "lineas": [
+        {
+          "insumo": "Cebolla",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Champiñón",
+          "cantidad": 25.0
+        },
+        {
+          "insumo": "Chile poblano asado",
+          "cantidad": 200.0
+        },
+        {
+          "insumo": "Crema",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Elote en grano",
+          "cantidad": 25.0
+        },
+        {
+          "insumo": "Mantequilla",
+          "cantidad": 10.0
+        },
+        {
+          "insumo": "Masa de pizza (bola)",
+          "cantidad": 1
+        },
+        {
+          "insumo": "Queso mozzarella",
+          "cantidad": 180.0
+        },
+        {
+          "insumo": "Queso panela",
+          "cantidad": 50.0
+        }
+      ]
+    },
+    {
+      "menuItem": "Poke Bowl",
+      "lineas": [
+        {
+          "insumo": "Cebolla morada",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Champiñón",
+          "cantidad": 35.0
+        },
+        {
+          "insumo": "Elote en grano",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Espinaca",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Jitomate",
+          "cantidad": 50.0
+        },
+        {
+          "insumo": "Miel de agave",
+          "cantidad": 20.0
+        },
+        {
+          "insumo": "Pepino",
+          "cantidad": 100.0
+        },
+        {
+          "insumo": "Queso panela",
+          "cantidad": 30.0
+        },
+        {
+          "insumo": "Quinoa",
+          "cantidad": 1.0
+        },
+        {
+          "insumo": "Vinagre de arroz",
+          "cantidad": 20.0
+        }
+      ]
+    }
+  ],
+  "bases": [
+    {
+      "nombre": "BIRRIA",
+      "lineas": [
+        {
+          "insumo": "Agua de garrafón",
+          "cantidad": 4000.0,
+          "unidad": "ML"
+        },
+        {
+          "insumo": "Chambarete",
+          "cantidad": 2000.0,
+          "unidad": "G"
+        },
+        {
+          "insumo": "Chile ancho",
+          "cantidad": 5.0,
+          "unidad": "PZA"
+        },
+        {
+          "insumo": "Chile pulla",
+          "cantidad": 5.0,
+          "unidad": "PZA"
+        },
+        {
+          "insumo": "Clavo de olor",
+          "cantidad": 5.0,
+          "unidad": "PZA"
+        },
+        {
+          "insumo": "Ajo",
+          "cantidad": 5.0,
+          "unidad": "PZA"
+        },
+        {
+          "insumo": "Hierbas italianas",
+          "cantidad": 15.0,
+          "unidad": "ML"
+        },
+        {
+          "insumo": "Cebolla blanca",
+          "cantidad": 1.0,
+          "unidad": "PZA"
+        },
+        {
+          "insumo": "Vinagre blanco",
+          "cantidad": 50.0,
+          "unidad": "ML"
+        }
+      ]
+    },
+    {
+      "nombre": "FOCACCIA",
+      "lineas": [
+        {
+          "insumo": "Harina fuerte",
+          "cantidad": 1000.0,
+          "unidad": "G"
+        },
+        {
+          "insumo": "Levadura",
+          "cantidad": 20.0,
+          "unidad": "G"
+        },
+        {
+          "insumo": "Sal",
+          "cantidad": 10.0,
+          "unidad": "G"
+        },
+        {
+          "insumo": "Agua",
+          "cantidad": 900.0,
+          "unidad": "ML"
+        },
+        {
+          "insumo": "Aceite de oliva",
+          "cantidad": 20.0,
+          "unidad": "ML"
+        },
+        {
+          "insumo": "Aceituna",
+          "cantidad": 100.0,
+          "unidad": "G"
+        },
+        {
+          "insumo": "Sal ahumada",
+          "cantidad": 5.0,
+          "unidad": "G"
+        }
+      ]
+    },
+    {
+      "nombre": "PESTO",
+      "lineas": [
+        {
+          "insumo": "Albahaca",
+          "cantidad": 50.0,
+          "unidad": "G"
+        },
+        {
+          "insumo": "Aceite de oliva",
+          "cantidad": 500.0,
+          "unidad": "ML"
+        },
+        {
+          "insumo": "Vino blanco",
+          "cantidad": 100.0,
+          "unidad": "ML"
+        },
+        {
+          "insumo": "Almendra",
+          "cantidad": 150.0,
+          "unidad": "G"
+        },
+        {
+          "insumo": "Queso parmesano",
+          "cantidad": 50.0,
+          "unidad": "G"
+        },
+        {
+          "insumo": "Azúcar",
+          "cantidad": 20.0,
+          "unidad": "G"
+        },
+        {
+          "insumo": "Sal",
+          "cantidad": 1,
+          "unidad": "G"
+        }
+      ]
+    },
+    {
+      "nombre": "PIZZA",
+      "lineas": [
+        {
+          "insumo": "Harina fuerte",
+          "cantidad": 1000.0,
+          "unidad": "G"
+        },
+        {
+          "insumo": "Levadura",
+          "cantidad": 6.0,
+          "unidad": "G"
+        },
+        {
+          "insumo": "Sal",
+          "cantidad": 10.0,
+          "unidad": "G"
+        },
+        {
+          "insumo": "Agua",
+          "cantidad": 600.0,
+          "unidad": "ML"
+        }
+      ]
+    }
+  ]
+}
